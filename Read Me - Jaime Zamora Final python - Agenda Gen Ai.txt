@@ -1,0 +1,57 @@
+
+README for Meeting Agenda Generator
+
+Project Description:
+
+The Meeting Agenda Generator is a Python-based application designed to facilitate efficient meeting planning by automatically generating a list of agenda items from the text of an email or any other text input. Utilizing natural language processing (NLP) techniques, the application identifies key action-oriented sentences that are likely to be important for a meeting. This tool is especially useful for managers, team leaders, and professionals who frequently organize meetings and need to quickly extract potential discussion points from communications.
+
+Summary:
+
+This application reads through provided text, identifies sentences containing specific action verbs or phrases, and compiles them into a structured list. The result is a clear, actionable meeting agenda that can help streamline discussions and ensure all necessary topics are covered. The program features a simple graphical user interface (GUI) for easy interaction, allowing users to input text and view the generated agenda directly.
+
+Project Dependencies:
+
+Python: The primary programming language used.
+Natural Language Toolkit (NLTK): A leading platform for building Python programs to work with human language data.
+Tkinter: Python's standard GUI library used for creating the application interface.
+
+Platform Requirements:
+
+The application is platform-independent but requires Python to be installed. It has been tested on Windows, macOS.
+
+Installation Guide:
+
+Install Python
+Ensure that Python is installed on your system. Python can be downloaded from the official Python website. This application works with Python 3.7 and above.
+
+Install Dependencies
+Install the required Python packages using pip:
+Run pip install nltk tkinter to install the necessary packages.
+Download NLTK Resources
+
+Before running the application, you need to download the necessary NLTK resources:
+Run the following in a Python shell:
+python
+Copy code
+import nltk
+nltk.download('punkt')
+
+
+Running the Application:
+
+To start the application, navigate to the directory containing your script and run:
+
+Execute python agenda_generator.py in your command line or terminal. Replace agenda_generator.py with the actual name of your Python script. The GUI will launch, allowing you to enter text and generate a meeting agenda.
+
+Usage Instructions:
+
+Start the application using the command provided above.
+Enter or paste the text from which you want to extract the agenda into the "Enter Email Text" field.
+Click the "Generate Agenda" button.
+The agenda items will appear in the lower text field labeled "Generated Meeting Agenda".
+
+
+This README provides all the necessary information to get started with the Meeting Agenda Generator.
+
+Thank you,
+Jaime Zamora
